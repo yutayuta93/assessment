@@ -60,6 +60,7 @@
         //入力テキストを受け取る
         const inputText = input.value;
         if(inputText.length === 0){
+            window.alert('名前が入力されていません');
             return; //onClickの処理から抜ける
         }
         
